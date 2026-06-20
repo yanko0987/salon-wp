@@ -1,0 +1,23 @@
+---
+description: Slash komandas /sakārto vidi un /atjauno profilu — Ilze un Eduards
+alwaysApply: true
+---
+
+# Slash komandas (abi aģenti)
+
+Ja lietotājs raksta **`/sakārto vidi`** vai **`/atjauno profilu`**, izpildi `docs/AGENT-COMMANDS.md`.
+
+## `/sakārto vidi`
+Pārbaudi vidi (Ilze: `C:\Projects\salon-wp` + zars plan; Eduards: `~/Projects/salon-wp` + wp-local). Checklist. Nedrediģē failus.
+
+## `/atjauno profilu`
+**Nav tikai git pull.** Sync + izlasi HANDOFF, backlog, direction, marketing, git log. Atbildi ar:
+- **✅ Padarīts**
+- **📋 Atlikušais**
+- lomas/fokuss + Git statuss
+
+Formāts obligāts — skatīt AGENT-COMMANDS.md. Nerediģē bez uzdevuma.
+
+## Lomas
+- **Ilze:** virzība + mārketings — ne WP
+- **Eduards:** review plan + Mac WP (`docs/WP-LOCAL.md`)

@@ -81,7 +81,7 @@ Ilze atver **tikai** `C:\Projects\salon-wp` — bet aģentam jāzina viss projek
 /atjauno profilu
 ```
 
-Pilna instrukcija: `docs/ILZE-AGENT.md`
+Pilna instrukcija: `docs/AGENT-COMMANDS.md`
 
 ### Darba cikls
 

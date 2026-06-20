@@ -26,7 +26,7 @@ salon-wp/
 
 | Fails | Kam |
 |-------|-----|
-| [docs/ILZE-AGENT.md](docs/ILZE-AGENT.md) | **Ilzes aģents** — `/sakārto vidi`, `/atjauno profilu` |
+| [docs/AGENT-COMMANDS.md](docs/AGENT-COMMANDS.md) | **`/sakārto vidi`**, **`/atjauno profilu`** — Ilze un Eduards |
 | [docs/PROJECT.md](docs/PROJECT.md) | Pilns projekta konteksts (aģentam) |
 | `docs/WP-LOCAL.md` | **Mac WP** — kas jau izstrādāts (lapas, pakalpojumi, theme) |
 | `docs/HANDOFF.md` | Aktuālais statuss |

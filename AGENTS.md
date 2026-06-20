@@ -60,11 +60,11 @@
 
 `git@github.com:yanko0987/salon-wp.git` · Windows: `C:\Projects\salon-wp`
 
-## Sesijas sākums (Ilzes aģentam)
+## Sesijas sākums (abiem)
 
 ```
-1. docs/HANDOFF.md
-2. docs/PROJECT.md + docs/WP-LOCAL.md (konteksts, ne Ilzes rediģēšana)
-3. plan/backlog.md
-4. Strādāt: direction.md, marketing.md, marketing/
+/atjauno profilu
 ```
+
+`/atjauno profilu` = sync no Git + **apkopo padarīto un atlikušo** (ne tikai pull).
+Detalizēti: `docs/AGENT-COMMANDS.md`
