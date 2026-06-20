@@ -30,7 +30,7 @@ Struktūra, `.gitignore`, `AGENTS.md`, Cursor rules — gatavi.
 cd ~/Projects/salon-wp
 git add .
 git commit -m "Initial: plan/ for Ilze, dev scaffold"
-git remote add origin git@github.com:USER/salon-wp.git   # aizstāj USER
+git remote add origin git@github.com:yanko0987/salon-wp.git
 git push -u origin plan
 git push -u origin main
 ```
@@ -39,9 +39,19 @@ git push -u origin main
 
 ## 3. Ilze (Windows) — clone un darbs
 
+### 3a. Izveido mapi (vienreiz)
+
+```powershell
+New-Item -ItemType Directory -Path C:\Projects -Force
+```
+
+> `C:\Projects` pēc noklusējuma neeksistē. **Ne** izmanto OneDrive mapi.
+
+### 3b. Clone
+
 ```powershell
 cd C:\Projects
-git clone git@github.com:USER/salon-wp.git
+git clone git@github.com:yanko0987/salon-wp.git
 cd salon-wp
 git checkout plan
 ```
@@ -51,6 +61,20 @@ git checkout plan
 1. **File → Open Folder** → `C:\Projects\salon-wp`
 2. Jauns čats: **Ilze — plāns**
 3. Rediģē tikai `plan/` un `docs/HANDOFF.md`
+
+### Aģenta konteksts (svarīgi)
+
+Ilze atver **tikai** `C:\Projects\salon-wp` — bet aģentam jāzina viss projekts. Tas nāk no:
+
+| Fails | Ko dod |
+|-------|--------|
+| `AGENTS.md` | Lomas, noteikumi (Cursor lasa automātiski) |
+| `docs/PROJECT.md` | Sadarbības repo: salons, struktūra, fāze |
+| **`docs/WP-LOCAL.md`** | **Mac WP** — lapas, pakalpojumi, theme, Integrity Shield |
+| `docs/HANDOFF.md` | Kas darīts / kas tālāk |
+| `.cursor/rules/project-context.mdc` | Vienmēr aktīvs — ielādē kontekstu katrā čatā |
+
+**Pirmajā čatā uzraksti:** „Izlasi HANDOFF, PROJECT un **WP-LOCAL**, tad sācam ar backlog.”
 
 ### Darba cikls
 

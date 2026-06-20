@@ -22,6 +22,13 @@ salon-wp/
 └── src/           ← EDUARDS (vēlāk WP custom)
 ```
 
-## Ātrā palaišana
+## Dokumentācija
 
-Skatīt [docs/SETUP.md](docs/SETUP.md) — soli pa solim Mac un Windows.
+| Fails | Kam |
+|-------|-----|
+| [docs/SETUP.md](docs/SETUP.md) | Uzstādīšana Mac + Windows |
+| [docs/PROJECT.md](docs/PROJECT.md) | Pilns projekta konteksts (aģentam) |
+| `docs/WP-LOCAL.md` | **Mac WP** — kas jau izstrādāts (lapas, pakalpojumi, theme) |
+| `docs/HANDOFF.md` | Aktuālais statuss |
+
+**Ilze (Windows):** atver `C:\Projects\salon-wp` — aģents zina visu projektu caur `AGENTS.md` + `PROJECT.md`.

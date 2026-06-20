@@ -4,8 +4,8 @@
 
 ## Pēdējais statuss
 
-- **Kas:** Repozitorijs inicializēts — struktūra, zari, Cursor rules
-- **Kas tālāk:** Ilze — aizpildīt `plan/sitemap.md`, `plan/services.md`, `plan/backlog.md`
+- **Kas:** Pievienots `docs/WP-LOCAL.md` — Mac WP stāvoklis (lapas, pakalpojumi, theme) Ilzes aģentam
+- **Kas tālāk:** Push uz GitHub; Ilze clone + `git pull`; aizpildīt `plan/` saskaņā ar WP-LOCAL
 - **Datums / kas:** 2026-06-20 / Eduards
 
 ## Vēsture

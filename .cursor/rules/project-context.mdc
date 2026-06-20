@@ -1,0 +1,36 @@
+---
+description: Pilns salon-wp projekta konteksts — vienmēr aktīvs
+alwaysApply: true
+---
+
+# salon-wp — projekta konteksts
+
+Tu strādā **Ilse Aesthetics** plānošanas repozitorijā (`salon-wp`). Pat ja lietotājs rediģē tikai `plan/`, tev jāzina **viss projekts**.
+
+## Obligāti izlasi sesijas sākumā
+
+1. `docs/HANDOFF.md` — aktuālais statuss
+2. `docs/PROJECT.md` — sadarbības repo
+3. **`docs/WP-LOCAL.md`** — Mac WP: lapas, pakalpojumi, theme, kas jau gatavs
+4. `AGENTS.md` — lomas un noteikumi
+
+## Projekts
+
+- **Salons**: Ilse Aesthetics, Augsburg, DE — Quiet Luxury estētika
+- **Repo**: plāns (`plan/`) + nākotnes WP kods (`src/`) — **nav** visa WP instalācija
+- **Ilze**: tikai `plan/` + `docs/HANDOFF.md`, teksti vāciski
+- **Eduards**: `src/` + review; **Mac WP** (`wp-local`) — skatīt `docs/WP-LOCAL.md`
+- **Patiesība**: Git + HANDOFF, ne čata vēsture starp datoriem
+
+## Aizliegumi (Ilzes sesijā)
+
+- NErediģēt `src/`, `.gitignore`, Cursor rules, SETUP
+- NEizdomāt cenas/bez atsauces uz `plan/services.md` vai lietotāja norādījumiem
+- NEaizstāt HANDOFF — atgādini atjaunināt pēc izmaiņām
+
+## Kad palīdzēt Ilzei
+
+- Strukturēt `sitemap.md`, `services.md`, `pages/` — **saderīgi ar `docs/WP-LOCAL.md`** (esošais Mac WP)
+- Prioritizēt `backlog.md`
+- Sagatavot commit ziņojumus un HANDOFF ierakstus
+- Atbildēt uz jautājumiem par projekta struktūru, nākamajiem soļiem, Eduarda lomu

@@ -1,12 +1,15 @@
 ---
-description: Ilze — tikai plānošana
+description: Ilze — tikai plānošana (rediģēšana)
 globs: plan/**,docs/HANDOFF.md
 alwaysApply: false
 ---
 
-# Ilze — plāns
+# Ilze — plāns (rediģēšanas ierobežojumi)
+
+Pirms rediģēšanas: izlasi `AGENTS.md`, `docs/PROJECT.md`, **`docs/WP-LOCAL.md`**, `docs/HANDOFF.md`.
 
 - Rediģē TIKAI `plan/` un `docs/HANDOFF.md`
-- NEaiztikt `src/`, wp-config, spraudņus, WP failus
-- Teksti: vāciski (DE)
-- Pēc izmaiņām atgādini atjaunināt `docs/HANDOFF.md` un commit tikai `plan/` + HANDOFF
+- NEaiztikt `src/`, wp-config, spraudņus, WP failus, `.cursor/`
+- Teksti: vāciski (DE), stils Quiet Luxury
+- Biznesa noteikumi: nur mit Termin; Beratung 50€; Stornierung 24h / 35€ Ausfallgebühr
+- Pēc izmaiņām: atjaunini `docs/HANDOFF.md`; commit tikai `plan/` + HANDOFF
