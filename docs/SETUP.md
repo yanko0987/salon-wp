@@ -74,7 +74,9 @@ Ilze atver **tikai** `C:\Projects\salon-wp` — bet aģentam jāzina viss projek
 | `docs/HANDOFF.md` | Kas darīts / kas tālāk |
 | `.cursor/rules/project-context.mdc` | Vienmēr aktīvs — ielādē kontekstu katrā čatā |
 
-**Pirmajā čatā uzraksti:** „Izlasi HANDOFF, PROJECT un **WP-LOCAL**, tad sācam ar backlog.”
+**Pirmajā čatā uzraksti:**
+
+> Izlasi HANDOFF un AGENTS. Tu palīdzi ar **salona virzību un mārketingu** — ne ar WP. Sāc ar plan/direction.md un plan/marketing.md pēc backlog P1.
 
 ### Darba cikls
 

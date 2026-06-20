@@ -1,17 +1,23 @@
 # Plānošana (Ilze)
 
-Šeit tikai plāns — bez koda, bez WP failiem.
+Šeit **tikai stratēģija** — bez koda, bez WP, bez tehniskām lapām.
 
-## Faili
+## Ilzes fokuss
 
-- `sitemap.md` — lapu koks
-- `services.md` — pakalpojumi + cenas (melnraksts)
-- `pages/` — teksti vāciski pirms publicēšanas WP
-- `backlog.md` — kas jādara, prioritātes
+| Joma | Fails / mape | Piemēri |
+|------|--------------|---------|
+| **Fiziskā virzība** | `direction.md` | Salona pozicionējums, mērķauditorija, ko uzsvērt, pieredze telpā |
+| **Mārketings** | `marketing.md`, `marketing/` | Ziņas, Instagram, akcijas, sezonas, tonis DE |
+| **Uzdevumi** | `backlog.md` | Prioritātes |
+
+## Ko Ilze **nedara**
+
+- Tehniskais sitemap, WP lapas, cenu sinhronizācija → **Eduards** (Mac WP, skatīt `docs/WP-LOCAL.md`)
+- `services.md` / `sitemap.md` — tikai **lasāma atsauce**, ne galvenais darbs
 
 ## Kā strādāt
 
-1. Atver Cursor → čats **Ilze — plāns**
-2. Rediģē failus `plan/`
-3. `git add plan/` → `git commit` → `git push`
-4. Īss ieraksts `docs/HANDOFF.md` — kas mainīts
+1. Cursor → čats **Ilze — plāns**
+2. Rediģē `direction.md`, `marketing.md`, `marketing/`, `backlog.md`
+3. `git add plan/ docs/HANDOFF.md` → commit → push
+4. Īss ieraksts `docs/HANDOFF.md`

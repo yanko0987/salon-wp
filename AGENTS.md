@@ -4,50 +4,50 @@
 
 ## Projekts vienā rindkopā
 
-**Ilse Aesthetics** — estētikas salons Augsburgā (DE). Šis repo ir **plānošana + nākotnes WP kods**, ne visa WordPress instalācija. Sadarbība: Ilze (Windows) plāno, Eduards (Mac) review un vēlāk kodē.
+**Ilse Aesthetics** — estētikas salons Augsburgā (DE). Ilze (Windows) plāno **fizisko virzību un mārketingu**. Eduards (Mac) uztur WP, tehniku un implementāciju.
 
 ## Lomas
 
 | Kas | Kur | Ko dara |
 |-----|-----|---------|
-| **Ilze** | `plan/`, `docs/HANDOFF.md` | Sitemap, pakalpojumi, DE teksti, backlog |
-| **Eduards** | `src/` + review | Monitorē `plan/`; WP kods vēlāk |
+| **Ilze** | `plan/` | **Virzība** (`direction.md`), **mārketings** (`marketing.md`, `marketing/`), backlog |
+| **Eduards** | `src/` + Mac WP | Vietne, pakalpojumi, cenas, tehnika — skatīt `docs/WP-LOCAL.md` |
 | **Kopīgi** | `docs/HANDOFF.md` | Statuss starp Mac un Windows |
 
 **Čats = sesija. Patiesība = Git.**
 
 ## Ilze — aģenta noteikumi
 
-1. **Rediģē TIKAI** `plan/` un `docs/HANDOFF.md`
-2. **NEaiztikt** `src/`, WP, spraudņus, konfigurāciju
-3. **Valoda**: viss publicējamais saturs — **vāciski (DE)**
-4. **Stils**: Quiet Luxury — profesionāls, mierīgs, ekskluzīvs; bez pārspīlēta marketinga
-5. **Biznesa noteikumi** tekstos: tikai ar pierakstu; konsultācija 50€; atcelšana 24h / 35€ Ausfallgebühr
-6. Pēc izmaiņām: atjaunini `HANDOFF.md`, commit tikai `plan/` + HANDOFF
+1. **Rediģē TIKAI** `plan/` (galvenokārt `direction.md`, `marketing.md`, `marketing/`, `backlog.md`) un `docs/HANDOFF.md`
+2. **Fokuss**: salona virzība, mērķauditorija, mārketings, Instagram ziņas — **ne** WP, ne tehniskās lapas, ne cenu sinhronizācija
+3. **NEaiztikt** `src/`, WP, spraudņus; **neaizpildīt** `sitemap.md` / `services.md` (tās uztur Eduards)
+4. **Valoda**: publicējamais saturs — **vāciski (DE)**
+5. **Stils**: Quiet Luxury — profesionāls, mierīgs, ekskluzīvs
+6. Ja vajag ko vietnē — raksti sadaļā „Piezīmes Eduardam” `direction.md`, neimplementē pats
+7. Pēc izmaiņām: atjaunini `HANDOFF.md`, commit tikai `plan/` + HANDOFF
 
 ## Eduards — aģenta noteikumi
 
-1. Sākumā: lasīt `plan/`, nekodēt bez prasības
-2. Implementācija tikai `src/` pēc plāna apstiprināšanas
-3. Merge `plan` → `main` tikai kad plāns pārskatīts
+1. Lasīt Ilzes `plan/direction.md` un `plan/marketing.md` pirms WP izmaiņām
+2. Tehnika: Mac `wp-local`, `src/`, Amelia, lapas — skatīt `WP-LOCAL.md`
+3. Merge `plan` → `main` kad stratēģija pārskatīta
 
-## Mapes
+## Mapes (Ilze)
 
 | Mape | Saturs |
 |------|--------|
-| `plan/sitemap.md` | Lapu koks |
-| `plan/services.md` | Pakalpojumi + cenas (melnraksts) |
-| `plan/pages/` | Lapu teksti DE pirms WP |
-| `plan/backlog.md` | Uzdevumi, prioritātes |
-| `docs/HANDOFF.md` | Kas darīts / kas tālāk |
-| `docs/PROJECT.md` | Sadarbības repo konteksts (lasāms, nemainīt Ilzei) |
-| **`docs/WP-LOCAL.md`** | **Mac WP** — kas jau izstrādāts (lapas, pakalpojumi, theme) |
-| `src/` | WP custom — vēlāk, Eduards |
+| `plan/direction.md` | Fiziskā virzība, vīzija, mērķauditorija |
+| `plan/marketing.md` | Ziņas, kanāli, Instagram virzība |
+| `plan/marketing/` | Konkrēti mārketinga uzdevumi / melnraksti |
+| `plan/backlog.md` | Prioritātes |
+| `plan/sitemap.md` | Atsauce (Eduards) — Ilze nelasa kā darbu |
+| `plan/services.md` | Atsauce (Eduards) — Ilze nelasa kā darbu |
+| `docs/WP-LOCAL.md` | Mac WP — lasāms kontekstam, nemainīt |
 
 ## Zari
 
 - `plan` — Ilze strādā šeit
-- `main` — apstiprināts plāns + kods
+- `main` — apstiprināts + kods
 
 ## Kontakti (salons)
 
@@ -60,12 +60,11 @@
 
 `git@github.com:yanko0987/salon-wp.git` · Windows: `C:\Projects\salon-wp`
 
-## Sesijas sākums (aģentam)
+## Sesijas sākums (Ilzes aģentam)
 
 ```
-1. Lasīt docs/HANDOFF.md      → kas jaunākais
-2. Lasīt docs/PROJECT.md      → sadarbības repo
-3. Lasīt docs/WP-LOCAL.md     → Mac WP (kas jau uzbūvēts)
-4. Skatīt plan/backlog.md     → kas jādara
-5. Strādāt tikai atļautajās mapēs
+1. docs/HANDOFF.md
+2. docs/PROJECT.md + docs/WP-LOCAL.md (konteksts, ne Ilzes rediģēšana)
+3. plan/backlog.md
+4. Strādāt: direction.md, marketing.md, marketing/
 ```

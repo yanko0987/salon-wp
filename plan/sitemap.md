@@ -1,6 +1,6 @@
-# Sitemap (melnraksts)
+# Sitemap (atsauce — uztur Eduards)
 
-> Ilze — aizpildi lapu koku. Valoda: DE.
+> **Ilze šo neaizpilda.** Tehniskais lapu koks no Mac WP. Skatīt `docs/WP-LOCAL.md`.
 
 ## Galvenās lapas
 

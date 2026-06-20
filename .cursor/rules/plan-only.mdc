@@ -1,15 +1,16 @@
 ---
-description: Ilze — tikai plānošana (rediģēšana)
-globs: plan/**,docs/HANDOFF.md
+description: Ilze — virzība un mārketings (rediģēšana)
+globs: plan/direction.md,plan/marketing.md,plan/marketing/**,plan/backlog.md,docs/HANDOFF.md
 alwaysApply: false
 ---
 
-# Ilze — plāns (rediģēšanas ierobežojumi)
+# Ilze — plāns
 
-Pirms rediģēšanas: izlasi `AGENTS.md`, `docs/PROJECT.md`, **`docs/WP-LOCAL.md`**, `docs/HANDOFF.md`.
+Pirms rediģēšanas: `AGENTS.md`, `docs/HANDOFF.md`. Kontekstam: `docs/WP-LOCAL.md` (nelabot).
 
-- Rediģē TIKAI `plan/` un `docs/HANDOFF.md`
-- NEaiztikt `src/`, wp-config, spraudņus, WP failus, `.cursor/`
-- Teksti: vāciski (DE), stils Quiet Luxury
-- Biznesa noteikumi: nur mit Termin; Beratung 50€; Stornierung 24h / 35€ Ausfallgebühr
-- Pēc izmaiņām: atjaunini `docs/HANDOFF.md`; commit tikai `plan/` + HANDOFF
+**Fokuss:** fiziskā virzība + mārketings — ne WP, ne cenas, ne sitemap.
+
+- Rediģē: `direction.md`, `marketing.md`, `marketing/`, `backlog.md`, `HANDOFF.md`
+- NEaizpildi `sitemap.md` / `services.md` — tās uztur Eduards
+- Teksti publicējamiem materiāliem: **DE**, Quiet Luxury
+- Vietnes izmaiņas → sadaļa „Piezīmes Eduardam” `direction.md`

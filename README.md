@@ -4,7 +4,7 @@ Sadarbības repozitorijs: Ilze plāno, Eduards implementē.
 
 | Kas | Kur | Ko dara |
 |-----|-----|---------|
-| **Ilze** | tikai `plan/` | Plāns, lapas, pakalpojumi, teksti DE, backlog |
+| **Ilze** | tikai `plan/` | **Virzība** + **mārketings** (ne WP, ne cenas) |
 | **Eduards** | `src/` + review | Sākumā skatās `plan/` commitus; vēlāk WP kods |
 | **Kopīgi** | `docs/HANDOFF.md` | Īss statuss (čati nesinhronizējas Mac/Windows) |
 

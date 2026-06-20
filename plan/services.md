@@ -1,6 +1,6 @@
-# Pakalpojumi + cenas (melnraksts)
+# Pakalpojumi (atsauce — uztur Eduards)
 
-> Ilze — aizpildi. Valoda: DE. Cenas var būt aptuvenas; galīgās — no Amelia/WP.
+> **Ilze šo neaizpilda.** Cenas un pakalpojumi no Mac WP / Amelia. Skatīt `docs/WP-LOCAL.md`.
 
 ## Gesicht
 

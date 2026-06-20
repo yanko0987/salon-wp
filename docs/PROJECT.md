@@ -33,7 +33,7 @@
 | **Haare** | Haar-Mesotherapie |
 | **Augen** | Wimpernlifting |
 
-Detalizētas cenas un apraksti — Ilze raksta `plan/services.md` un `plan/pages/`. **Esošais Mac WP** — skatīt **`docs/WP-LOCAL.md`** (lapas, cenas, page_id).
+Detalizētas cenas, lapas, WP — **Eduards** (`docs/WP-LOCAL.md`). Ilze plāno **virzību un mārketingu** (`plan/direction.md`, `plan/marketing.md`).
 
 ## Repozitorija struktūra
 
@@ -59,8 +59,8 @@ salon-wp/
 
 | Kas | Zars | Mapes | Ko dara |
 |-----|------|-------|---------|
-| **Ilze** (Windows) | `plan` | `plan/`, `docs/HANDOFF.md` | Plāns, lapu teksti DE, pakalpojumi, backlog |
-| **Eduards** (Mac) | `main` + review | `src/`, review `plan/` | Monitorē plānu; vēlāk implementē WP |
+| **Ilze** (Windows) | `plan` | `direction.md`, `marketing.md` | Virzība + mārketings |
+| **Eduards** (Mac) | `main` + review | `src/`, Mac WP | Vietne, tehnika, pakalpojumi |
 | **Kopīgi** | — | `docs/HANDOFF.md` | Īss statuss — čati nesinhronizējas |
 
 **Čats = sesija. Patiesība = Git + HANDOFF.**

@@ -5,32 +5,29 @@ alwaysApply: true
 
 # salon-wp — projekta konteksts
 
-Tu strādā **Ilse Aesthetics** plānošanas repozitorijā (`salon-wp`). Pat ja lietotājs rediģē tikai `plan/`, tev jāzina **viss projekts**.
+Tu strādā **Ilse Aesthetics** repozitorijā. Ilze plāno **fizisko virzību un mārketingu** — ne WP tehniku.
 
-## Obligāti izlasi sesijas sākumā
+## Sesijas sākums
 
-1. `docs/HANDOFF.md` — aktuālais statuss
-2. `docs/PROJECT.md` — sadarbības repo
-3. **`docs/WP-LOCAL.md`** — Mac WP: lapas, pakalpojumi, theme, kas jau gatavs
-4. `AGENTS.md` — lomas un noteikumi
+1. `docs/HANDOFF.md`
+2. `docs/PROJECT.md` + `docs/WP-LOCAL.md` (konteksts)
+3. `AGENTS.md`
+4. `plan/backlog.md`
 
-## Projekts
+## Ilzes fokuss
 
-- **Salons**: Ilse Aesthetics, Augsburg, DE — Quiet Luxury estētika
-- **Repo**: plāns (`plan/`) + nākotnes WP kods (`src/`) — **nav** visa WP instalācija
-- **Ilze**: tikai `plan/` + `docs/HANDOFF.md`, teksti vāciski
-- **Eduards**: `src/` + review; **Mac WP** (`wp-local`) — skatīt `docs/WP-LOCAL.md`
-- **Patiesība**: Git + HANDOFF, ne čata vēsture starp datoriem
+- `plan/direction.md` — vīzija, mērķauditorija, salona pieredze, ko uzsvērt
+- `plan/marketing.md` + `plan/marketing/` — ziņas DE, Instagram, kanāli, akciju idejas
+- Quiet Luxury tonis — bez agresīva mārketinga
 
-## Aizliegumi (Ilzes sesijā)
+## Nav Ilzes darbs
 
-- NErediģēt `src/`, `.gitignore`, Cursor rules, SETUP
-- NEizdomāt cenas/bez atsauces uz `plan/services.md` vai lietotāja norādījumiem
-- NEaizstāt HANDOFF — atgādini atjaunināt pēc izmaiņām
+- WP lapas, sitemap, cenas, `services.md` — Eduards / Mac WP
+- `src/`, tehniskā implementācija
 
-## Kad palīdzēt Ilzei
+## Palīdzība
 
-- Strukturēt `sitemap.md`, `services.md`, `pages/` — **saderīgi ar `docs/WP-LOCAL.md`** (esošais Mac WP)
-- Prioritizēt `backlog.md`
-- Sagatavot commit ziņojumus un HANDOFF ierakstus
-- Atbildēt uz jautājumiem par projekta struktūru, nākamajiem soļiem, Eduarda lomu
+- Strukturēt virzības un mārketinga dokumentus **DE**
+- Idejas Instagram / sezonām / paketēm
+- „Piezīmes Eduardam” kad kaut kas jāatspoguļo vietnē
+- HANDOFF + commit ziņojumi

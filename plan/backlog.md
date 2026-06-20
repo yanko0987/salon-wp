@@ -1,19 +1,25 @@
-# Backlog
+# Backlog — Ilze
 
-> Prioritātes: P1 = tūlīt, P2 = drīz, P3 = vēlāk
+> Fokuss: **fiziskā virzība** + **mārketings**. Tehnika / WP → Eduards.
 
-## P1
+## P1 — tūlīt
 
-- [ ] Aizpildīt `sitemap.md`
-- [ ] Aizpildīt `services.md`
-- [ ] Pirmā lapa `pages/` (piem. Startseite)
+- [ ] Aizpildīt `direction.md` — vīzija, mērķauditorija, ko uzsvērt
+- [ ] Aizpildīt `marketing.md` — ziņas, kanāli, Instagram virzība
+- [ ] Pirmais konkrētais uzdevums `marketing/` (piem. sezonas fokuss vai postu tēmu saraksts)
 
-## P2
+## P2 — drīz
 
-- [ ] Über uns teksts
-- [ ] Kontakt / Öffnungszeiten
+- [ ] Sezonas plāns (3 mēneši)
+- [ ] Google / lokālā meklēšana — ko uzsvērt
+- [ ] Paketes / akciju idejas (saskaņot ar 6/8/10 abonementiem)
 
-## P3
+## P3 — vēlāk
 
-- [ ] Blog tēmas
-- [ ] WooCommerce (ja vajag)
+- [ ] Newsletter / e-pasta virzība
+- [ ] Sadarbības / partneri
+
+## Eduards (nav Ilzes darbs)
+
+- WP lapas, cenas, sitemap — Mac `wp-local`, skatīt `docs/WP-LOCAL.md`
+- `plan/sitemap.md` un `plan/services.md` — atsauce no Mac WP, uztur Eduards
