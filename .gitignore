@@ -1,0 +1,12 @@
+wp-config.php
+.env
+.env.*
+*.wpress
+*.sql
+*.sql.gz
+wp-content/uploads/
+wp-content/cache/
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db

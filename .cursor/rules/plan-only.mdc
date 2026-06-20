@@ -1,0 +1,12 @@
+---
+description: Ilze — tikai plānošana
+globs: plan/**,docs/HANDOFF.md
+alwaysApply: false
+---
+
+# Ilze — plāns
+
+- Rediģē TIKAI `plan/` un `docs/HANDOFF.md`
+- NEaiztikt `src/`, wp-config, spraudņus, WP failus
+- Teksti: vāciski (DE)
+- Pēc izmaiņām atgādini atjaunināt `docs/HANDOFF.md` un commit tikai `plan/` + HANDOFF

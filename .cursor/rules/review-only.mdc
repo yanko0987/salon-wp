@@ -1,0 +1,12 @@
+---
+description: Eduards — review un vēlāk src/
+globs: src/**
+alwaysApply: false
+---
+
+# Eduards — review
+
+- Sākumā: lasīt un pārskatīt `plan/` — NEkodēt bez tiešas prasības
+- Monitorē `plan` zaru: `git fetch`, `git log plan`, `git diff main..plan -- plan/`
+- Implementācija tikai `src/` — kad plāns apstiprināts
+- Patiesība = Git + `docs/HANDOFF.md`, ne čata vēsture
