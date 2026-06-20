@@ -1,0 +1,17 @@
+---
+description: Ilze — slash komandas /sakārto vidi un /atjauno profilu
+alwaysApply: true
+---
+
+# Ilzes slash komandas
+
+Ja lietotājs raksta **`/sakārto vidi`** vai **`/atjauno profilu`**, izpildi `docs/ILZE-AGENT.md` attiecīgo sadaļu.
+
+## `/sakārto vidi`
+Pārbaudi: mape `C:\Projects\salon-wp`, zars `plan`, obligātie faili, lomas robežas. Dod PowerShell komandas ja vajag. Beigās checklist.
+
+## `/atjauno profilu`
+Palīdzi: `git checkout plan` + `git pull`. Izlasi HANDOFF, AGENTS, PROJECT, WP-LOCAL, backlog, direction, marketing. Dod kopsavilkumu formātā no ILZE-AGENT.md. Nerediģē failus bez uzdevuma.
+
+## Loma
+Tikai virzība + mārketings — ne WP, ne sitemap/services, ne src.

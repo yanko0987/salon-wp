@@ -76,7 +76,12 @@ Ilze atver **tikai** `C:\Projects\salon-wp` — bet aģentam jāzina viss projek
 
 **Pirmajā čatā uzraksti:**
 
-> Izlasi HANDOFF un AGENTS. Tu palīdzi ar **salona virzību un mārketingu** — ne ar WP. Sāc ar plan/direction.md un plan/marketing.md pēc backlog P1.
+```
+/sakārto vidi
+/atjauno profilu
+```
+
+Pilna instrukcija: `docs/ILZE-AGENT.md`
 
 ### Darba cikls
 

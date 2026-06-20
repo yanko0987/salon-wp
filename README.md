@@ -26,7 +26,7 @@ salon-wp/
 
 | Fails | Kam |
 |-------|-----|
-| [docs/SETUP.md](docs/SETUP.md) | Uzstādīšana Mac + Windows |
+| [docs/ILZE-AGENT.md](docs/ILZE-AGENT.md) | **Ilzes aģents** — `/sakārto vidi`, `/atjauno profilu` |
 | [docs/PROJECT.md](docs/PROJECT.md) | Pilns projekta konteksts (aģentam) |
 | `docs/WP-LOCAL.md` | **Mac WP** — kas jau izstrādāts (lapas, pakalpojumi, theme) |
 | `docs/HANDOFF.md` | Aktuālais statuss |
