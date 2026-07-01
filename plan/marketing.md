@@ -36,6 +36,12 @@ _(Abonementi, sezonas piedāvājumi — saskaņot ar biznesa noteikumiem: 6/8/10
 
 _(Ko ņemam, ko nē)_
 
-## Backlog mārketingam
+## Faili šeit
 
-Skatīt arī `backlog.md` un `marketing/` mapi konkrētiem uzdevumiem.
+| Fails | Mērķis |
+|-------|--------|
+| `IG-META-TEMPLATE.md` | **Šablons** katram IG postam (īss meta) |
+| `ig-IA-DSGN-01.md` | Piemērs — Gesichtspflege Männer |
+| `license-*.md` | Pilna EMS-VAHOS — tikai pieprasījumā vai WP |
+
+**Noteikums:** uz bildes — tikai mārketings + zīmols. Hash, juridiskais teksts — **ne** uz attēla.

@@ -6,7 +6,7 @@
 
 - [ ] Aizpildīt `direction.md` — vīzija, mērķauditorija, ko uzsvērt
 - [ ] Aizpildīt `marketing.md` — ziņas, kanāli, Instagram virzība
-- [ ] Pirmais konkrētais uzdevums `marketing/` (piem. sezonas fokuss vai postu tēmu saraksts)
+- [ ] Pirmais konkrētais uzdevums `marketing/` — izmanto `IG-META-TEMPLATE.md`
 
 ## P2 — drīz
 
